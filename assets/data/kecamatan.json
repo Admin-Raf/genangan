@@ -1,0 +1,38 @@
+{
+    "Kabupaten Bandung": {
+        "image": "assets/images/kabupaten_bandung.png",
+        "kecamatan": [
+            {"name": "Arjasari", "image": "assets/images/arjasari.png"},
+            {"name": "Baleendah", "image": "assets/images/baleendah.png"},
+            {"name": "Banjaran", "image": "assets/images/banjaran.png"},
+            {"name": "Bojongsoang", "image": "assets/images/bojongsoang.png"},
+            {"name": "Cangkuang", "image": "assets/images/cangkuang.png"},
+            {"name": "Cicalengka", "image": "assets/images/cicalengka.png"},
+            {"name": "Cikancung", "image": "assets/images/cikancung.png"},
+            {"name": "Cilengkrang", "image": "assets/images/cilengkrang.png"},
+            {"name": "Cileunyi", "image": "assets/images/cileunyi.png"},
+            {"name": "Cimaung", "image": "assets/images/cimaung.png"},
+            {"name": "Cimenyan", "image": "assets/images/cimenyan.png"},
+            {"name": "Ciparay", "image": "assets/images/ciparay.png"},
+            {"name": "Ciwidey", "image": "assets/images/ciwidey.png"},
+            {"name": "Dayeuhkolot", "image": "assets/images/dayeuhkolot.png"},
+            {"name": "Ibun", "image": "assets/images/ibun.png"},
+            {"name": "Katapang", "image": "assets/images/katapang.png"},
+            {"name": "Kertasari", "image": "assets/images/kertasari.png"},
+            {"name": "Kutawaringin", "image": "assets/images/kutawaringin.png"},
+            {"name": "Majalaya", "image": "assets/images/majalaya.png"},
+            {"name": "Margaasih", "image": "assets/images/margaasih.png"},
+            {"name": "Margahayu", "image": "assets/images/margahayu.png"},
+            {"name": "Nagreg", "image": "assets/images/nagreg.png"},
+            {"name": "Pacet", "image": "assets/images/pacet.png"},
+            {"name": "Pameungpeuk", "image": "assets/images/pameungpeuk.png"},
+            {"name": "Pangalengan", "image": "assets/images/pangalengan.png"},
+            {"name": "Paseh", "image": "assets/images/paseh.png"},
+            {"name": "Pasirjambu", "image": "assets/images/pasirjambu.png"},
+            {"name": "Rancabali", "image": "assets/images/rancabali.png"},
+            {"name": "Rancaekek", "image": "assets/images/rancaekek.png"},
+            {"name": "Solokanjeruk", "image": "assets/images/solokanjeruk.png"},
+            {"name": "Soreang", "image": "assets/images/soreang.png"}
+        ]
+    }
+}
