@@ -339,10 +339,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
                 dataTableBody.insertAdjacentHTML('beforeend', row);
             });  
+        }      
         }
-            
-        }
-    }
+    
     
 
     // Event listener untuk tombol unduh PDF
