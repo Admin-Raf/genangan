@@ -14,23 +14,11 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet" />
     <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet" />
@@ -88,30 +76,22 @@
               <div class="row">
                 <!-- Dropdowns for Kabupaten, Kecamatan, and Tahun -->
                 <div class="col-md-6 mb-3">
-                  <button class="btn btn-primary" id="dropdown-toggle">
-                    Klik disini
-                  </button>
+                  <button class="btn btn-primary" id="dropdown-toggle">Klik disini</button>
                   <div id="dropdowns-container" style="display: none">
                     <div class="mb-3">
-                      <label for="kabupaten-dropdown" class="form-label"
-                        >Pilih Kabupaten</label
-                      >
+                      <label for="kabupaten-dropdown" class="form-label">Pilih Kabupaten</label>
                       <select id="kabupaten-dropdown" class="form-select">
                         <option value="">Pilih Kabupaten</option>
                       </select>
                     </div>
                     <div class="mb-3">
-                      <label for="tahun-dropdown" class="form-label"
-                        >Pilih Tahun</label
-                      >
+                      <label for="tahun-dropdown" class="form-label">Pilih Tahun</label>
                       <select id="tahun-dropdown" class="form-select">
                         <option value="">Semua Tahun</option>
                       </select>
                     </div>
                     <div class="mb-3">
-                      <label for="kecamatan-dropdown" class="form-label"
-                        >Pilih Kecamatan</label
-                      >
+                      <label for="kecamatan-dropdown" class="form-label">Pilih Kecamatan</label>
                       <select id="kecamatan-dropdown" class="form-select">
                         <option value="">Pilih Kecamatan</option>
                       </select>
@@ -121,15 +101,8 @@
                 <!-- Image Display -->
                 <div class="col-md-6 mb-3">
                   <div id="image-container" style="text-align: center">
-                    <img
-                      id="selected-image"
-                      src=""
-                      alt="Selected Image"
-                      style="max-width: 100%; height: auto"
-                    />
-                    <button id="download-pdf" class="btn btn-secondary mt-3">
-                      Download as PDF
-                    </button>
+                    <img id="selected-image" src="" alt="Selected Image" style="max-width: 100%; height: auto" />
+                    <button id="download-pdf" class="btn btn-secondary mt-3">Download as PDF</button>
                   </div>
                 </div>
 
@@ -168,19 +141,16 @@
       </div>
     </footer>
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-    >
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
       <i class="bi bi-arrow-up-short"></i>
     </a>
 
     <!-- Vendor JS Files -->
+    <script src="assets/js/report.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
     <script src="https://unpkg.com/zooming/build/zooming.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/report.js"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-providers@1.13.0/leaflet-providers.js"></script>
   </body>
